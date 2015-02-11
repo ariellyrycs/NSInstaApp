@@ -13,15 +13,16 @@
 
 
 @implementation PhonesTableViewController
-- (void)getInfo:(NSString *)hashtag {
+- (void)getInfo:(NSString *)hashtag reload:(UITableView*) table{
     instaDataModel * instaData = [[instaDataModel alloc] init];
     [instaData getInstaInfo:hashtag  withSuccessBlock:^(id responseObject){
         [self setFormat:responseObject];
+        [table reloadData];
     } andFailureBlock:^(NSError * error){
         NSLog(@"%@", error);
     }];
-    self.dataInst = [[NSMutableArray alloc] initWithCapacity:20];
-}
+    self.dataInst = [[NSMutableArray alloc] initWithCapacity:20];}
+
 -(void) setFormat:(NSDictionary *)instagramData {
     NSArray* tweets = [instagramData valueForKey:@"data"];
     int i;
@@ -51,7 +52,6 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"%@", self.cellIdentifier);
     InstagramCell* cell = (InstagramCell *)[tableView dequeueReusableCellWithIdentifier:self.cellIdentifier];
     if(!cell) {
         cell = [[InstagramCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:self.cellIdentifier];

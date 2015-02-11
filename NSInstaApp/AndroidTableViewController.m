@@ -16,7 +16,7 @@
     [super viewDidLoad];
     self.title = @"Android";
     self.cellIdentifier = @"CustomInstaCellAndroid";
-    [self getInfo: self.title];
+    [self getInfo: self.title reload:self.tableView];
 }
 
 

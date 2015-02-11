@@ -16,6 +16,6 @@
     [super viewDidLoad];
     self.title = @"WindowsPhone";
     self.cellIdentifier = @"CustomInstaCellWindowsPhone";
-    [self getInfo: self.title];
+    [self getInfo: self.title reload:self.tableView];
 }
 @end

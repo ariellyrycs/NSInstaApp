@@ -15,7 +15,8 @@
     [super viewDidLoad];
     self.title = @"iOS";
     self.cellIdentifier = @"CustomInstaCellIOS";
-    [self getInfo: self.title];
+    [self getInfo: self.title reload: self.tableView];
+    //[self.tableView reloadData];
 }
 
 @end

@@ -11,7 +11,7 @@
 @interface PhonesTableViewController : UITableViewController
 @property NSMutableArray* dataInst;
 @property NSString *cellIdentifier;
-- (void)getInfo:(NSString *)hashtag;
+- (void)getInfo:(NSString *)hashtag reload:(UITableView*) table;
 - (void) setFormat:(NSDictionary *)instagramData;
 - (void)getInfo;
 

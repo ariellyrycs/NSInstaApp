@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B042A053-5B20-4CDB-AB7B-7904B1094753</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSInstaApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EFEA8FF085F90C18CF0E8B6215C4334D1F2CABFC</key>
+		<string>https://github.com/ariellyrycs/NSInstaApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSInstaApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EFEA8FF085F90C18CF0E8B6215C4334D1F2CABFC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ariellyrycs/NSInstaApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EFEA8FF085F90C18CF0E8B6215C4334D1F2CABFC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EFEA8FF085F90C18CF0E8B6215C4334D1F2CABFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NSInstaApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

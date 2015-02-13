@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E114E4E39CFF25DE44FEBA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3B5675550A7E0D681A5CFB /* libPods.a */; };
 		A63279531A8C0E8000A59DDF /* PhonesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63279521A8C0E8000A59DDF /* PhonesTableViewController.m */; };
+		A638E5091A8D73A900267C13 /* InstaPost.m in Sources */ = {isa = PBXBuildFile; fileRef = A638E5081A8D73A900267C13 /* InstaPost.m */; };
 		A64E78A21A897AAD00505AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E78A11A897AAD00505AF2 /* main.m */; };
 		A64E78A51A897AAD00505AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E78A41A897AAD00505AF2 /* AppDelegate.m */; };
 		A64E78AE1A897AAD00505AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64E78AC1A897AAD00505AF2 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 		925A8365F1F22107227026B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A63279511A8C0E8000A59DDF /* PhonesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonesTableViewController.h; sourceTree = "<group>"; };
 		A63279521A8C0E8000A59DDF /* PhonesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhonesTableViewController.m; sourceTree = "<group>"; };
+		A638E5071A8D73A900267C13 /* InstaPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaPost.h; sourceTree = "<group>"; };
+		A638E5081A8D73A900267C13 /* InstaPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaPost.m; sourceTree = "<group>"; };
 		A64E789C1A897AAD00505AF2 /* NSInstaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSInstaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64E78A01A897AAD00505AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A64E78A11A897AAD00505AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				A64E789F1A897AAD00505AF2 /* Supporting Files */,
 				A63279511A8C0E8000A59DDF /* PhonesTableViewController.h */,
 				A63279521A8C0E8000A59DDF /* PhonesTableViewController.m */,
+				A638E5071A8D73A900267C13 /* InstaPost.h */,
+				A638E5081A8D73A900267C13 /* InstaPost.m */,
 			);
 			path = NSInstaApp;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */,
+				A638E5091A8D73A900267C13 /* InstaPost.m in Sources */,
 				A6892B8B1A8993D800BA6784 /* tabBarControllerViewController.m in Sources */,
 				A6892BA31A8A6C4400BA6784 /* instaDataModel.m in Sources */,
 				A63279531A8C0E8000A59DDF /* PhonesTableViewController.m in Sources */,

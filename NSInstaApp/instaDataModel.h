@@ -11,5 +11,5 @@
 @interface instaDataModel : NSObject
 @property id responseObject;
 - (void)getInstaInfo:(NSString *)phoneType withSuccessBlock:(void(^)(id))success andFailureBlock:(void(^)(NSError *))failure;
--(NSMutableArray *) setFormat:(NSDictionary *)instagramData;
+-(NSMutableArray *) formating:(id)instagramData;
 @end

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface instaDataModel : NSObject
+@interface InstaDataModel : NSObject
 @property id responseObject;
 - (void)getInstaInfo:(NSString *)phoneType withSuccessBlock:(void(^)(id))success andFailureBlock:(void(^)(NSError *))failure;
 -(NSMutableArray *) formating:(id)instagramData;

@@ -8,7 +8,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "PhonesTableViewController.h"
 #import "InstagramCell.h"
-#import "instaDataModel.h"
+#import "InstaDataModel.h"
 #import "InstaPost.h"
 
 
@@ -18,7 +18,7 @@ static NSString* customCell = @"InstagramCell";
 @implementation PhonesTableViewController
 
 - (void)getInfo {
-    instaDataModel * instaData = [[instaDataModel alloc] init];
+    InstaDataModel * instaData = [[InstaDataModel alloc] init];
     [instaData getInstaInfo:self.title  withSuccessBlock:^(NSMutableArray* responseObject){
         self.dataInst = responseObject;
         [self.tableView reloadData];

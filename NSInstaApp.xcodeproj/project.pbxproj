@@ -17,7 +17,7 @@
 		A64E78B31A897AAD00505AF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64E78B11A897AAD00505AF2 /* LaunchScreen.xib */; };
 		A64E78BF1A897AAD00505AF2 /* NSInstaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E78BE1A897AAD00505AF2 /* NSInstaAppTests.m */; };
 		A6892B8B1A8993D800BA6784 /* tabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892B8A1A8993D800BA6784 /* tabBarControllerViewController.m */; };
-		A6892BA31A8A6C4400BA6784 /* instaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BA21A8A6C4400BA6784 /* instaDataModel.m */; };
+		A6892BA31A8A6C4400BA6784 /* InstaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */; };
 		A6892BDA1A8AC98500BA6784 /* InstagramCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6892BD91A8AC98500BA6784 /* InstagramCell.xib */; };
 		A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */; };
 /* End PBXBuildFile section */
@@ -53,8 +53,8 @@
 		A64E78BE1A897AAD00505AF2 /* NSInstaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSInstaAppTests.m; sourceTree = "<group>"; };
 		A6892B891A8993D800BA6784 /* tabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarControllerViewController.h; sourceTree = "<group>"; };
 		A6892B8A1A8993D800BA6784 /* tabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarControllerViewController.m; sourceTree = "<group>"; };
-		A6892BA11A8A6C4400BA6784 /* instaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instaDataModel.h; sourceTree = "<group>"; };
-		A6892BA21A8A6C4400BA6784 /* instaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instaDataModel.m; sourceTree = "<group>"; };
+		A6892BA11A8A6C4400BA6784 /* InstaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaDataModel.h; sourceTree = "<group>"; };
+		A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaDataModel.m; sourceTree = "<group>"; };
 		A6892BD91A8AC98500BA6784 /* InstagramCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCell.xib; sourceTree = "<group>"; };
 		A6892BDE1A8BB64F00BA6784 /* InstagramCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramCell.h; sourceTree = "<group>"; };
 		A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramCell.m; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				A6892BDE1A8BB64F00BA6784 /* InstagramCell.h */,
 				A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */,
 				A6892BD91A8AC98500BA6784 /* InstagramCell.xib */,
-				A6892BA11A8A6C4400BA6784 /* instaDataModel.h */,
-				A6892BA21A8A6C4400BA6784 /* instaDataModel.m */,
+				A6892BA11A8A6C4400BA6784 /* InstaDataModel.h */,
+				A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */,
 				A6892B891A8993D800BA6784 /* tabBarControllerViewController.h */,
 				A6892B8A1A8993D800BA6784 /* tabBarControllerViewController.m */,
 				A64E78A31A897AAD00505AF2 /* AppDelegate.h */,
@@ -305,7 +305,7 @@
 				A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */,
 				A638E5091A8D73A900267C13 /* InstaPost.m in Sources */,
 				A6892B8B1A8993D800BA6784 /* tabBarControllerViewController.m in Sources */,
-				A6892BA31A8A6C4400BA6784 /* instaDataModel.m in Sources */,
+				A6892BA31A8A6C4400BA6784 /* InstaDataModel.m in Sources */,
 				A63279531A8C0E8000A59DDF /* PhonesTableViewController.m in Sources */,
 				A64E78A51A897AAD00505AF2 /* AppDelegate.m in Sources */,
 				A64E78A21A897AAD00505AF2 /* main.m in Sources */,

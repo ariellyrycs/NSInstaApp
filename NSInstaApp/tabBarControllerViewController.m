@@ -7,8 +7,7 @@
 //
 
 #import "tabBarControllerViewController.h"
-#import "instaDataModel.h"
-#import "instagramItemCell.h"
+#import "InstaDataModel.h"
 
 @interface tabBarControllerViewController ()
 

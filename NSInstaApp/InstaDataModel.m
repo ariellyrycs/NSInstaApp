@@ -6,13 +6,12 @@
 //
 //
 
-#import "instaDataModel.h"
 #import "AFNetworking.h"
 #import "InstaPost.h"
-#import "instaDataModel.h"
+#import "InstaDataModel.h"
 
 static NSString * instUrl = @"https://api.instagram.com/v1/tags/%@/media/recent?client_id=005c9a0586834b7bb7335f5955ab951a";
-@implementation instaDataModel
+@implementation InstaDataModel
 - (void)getInstaInfo:(NSString *)phoneType withSuccessBlock:(void(^)(id))success andFailureBlock:(void(^)(NSError *))failure
 {
     NSString *url = [NSString stringWithFormat:instUrl, phoneType];

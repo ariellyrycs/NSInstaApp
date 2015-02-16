@@ -6,14 +6,14 @@
 //
 //
 
-#import "tabBarControllerViewController.h"
+#import "TabBarViewController.h"
 #import "InstaDataModel.h"
 
-@interface tabBarControllerViewController ()
+@interface TabBarViewController ()
 
 @end
 
-@implementation tabBarControllerViewController
+@implementation TabBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

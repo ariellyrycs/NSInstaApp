@@ -16,7 +16,7 @@
 		A64E78B01A897AAD00505AF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64E78AF1A897AAD00505AF2 /* Images.xcassets */; };
 		A64E78B31A897AAD00505AF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64E78B11A897AAD00505AF2 /* LaunchScreen.xib */; };
 		A64E78BF1A897AAD00505AF2 /* NSInstaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E78BE1A897AAD00505AF2 /* NSInstaAppTests.m */; };
-		A6892B8B1A8993D800BA6784 /* tabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892B8A1A8993D800BA6784 /* tabBarControllerViewController.m */; };
+		A6892B8B1A8993D800BA6784 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892B8A1A8993D800BA6784 /* TabBarViewController.m */; };
 		A6892BA31A8A6C4400BA6784 /* InstaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */; };
 		A6892BDA1A8AC98500BA6784 /* InstagramCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6892BD91A8AC98500BA6784 /* InstagramCell.xib */; };
 		A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */; };
@@ -51,8 +51,8 @@
 		A64E78B81A897AAD00505AF2 /* NSInstaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSInstaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64E78BD1A897AAD00505AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A64E78BE1A897AAD00505AF2 /* NSInstaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSInstaAppTests.m; sourceTree = "<group>"; };
-		A6892B891A8993D800BA6784 /* tabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarControllerViewController.h; sourceTree = "<group>"; };
-		A6892B8A1A8993D800BA6784 /* tabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarControllerViewController.m; sourceTree = "<group>"; };
+		A6892B891A8993D800BA6784 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		A6892B8A1A8993D800BA6784 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		A6892BA11A8A6C4400BA6784 /* InstaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaDataModel.h; sourceTree = "<group>"; };
 		A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaDataModel.m; sourceTree = "<group>"; };
 		A6892BD91A8AC98500BA6784 /* InstagramCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCell.xib; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 				A6892BD91A8AC98500BA6784 /* InstagramCell.xib */,
 				A6892BA11A8A6C4400BA6784 /* InstaDataModel.h */,
 				A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */,
-				A6892B891A8993D800BA6784 /* tabBarControllerViewController.h */,
-				A6892B8A1A8993D800BA6784 /* tabBarControllerViewController.m */,
+				A6892B891A8993D800BA6784 /* TabBarViewController.h */,
+				A6892B8A1A8993D800BA6784 /* TabBarViewController.m */,
 				A64E78A31A897AAD00505AF2 /* AppDelegate.h */,
 				A64E78A41A897AAD00505AF2 /* AppDelegate.m */,
 				A64E78AF1A897AAD00505AF2 /* Images.xcassets */,
@@ -304,7 +304,7 @@
 			files = (
 				A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */,
 				A638E5091A8D73A900267C13 /* InstaPost.m in Sources */,
-				A6892B8B1A8993D800BA6784 /* tabBarControllerViewController.m in Sources */,
+				A6892B8B1A8993D800BA6784 /* TabBarViewController.m in Sources */,
 				A6892BA31A8A6C4400BA6784 /* InstaDataModel.m in Sources */,
 				A63279531A8C0E8000A59DDF /* PhonesTableViewController.m in Sources */,
 				A64E78A51A897AAD00505AF2 /* AppDelegate.m in Sources */,

@@ -9,4 +9,5 @@
 #import "InstaPost.h"
 
 @implementation InstaPost
+
 @end

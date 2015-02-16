@@ -11,6 +11,6 @@
 @interface InstagramCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *owner;
 @property (weak, nonatomic) IBOutlet UIImageView *photo;
-@property (weak, nonatomic) IBOutlet UITextView *comment;
+@property (weak, nonatomic) IBOutlet UILabel *comment;
 
 @end

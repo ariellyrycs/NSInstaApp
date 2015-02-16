@@ -11,7 +11,7 @@
 @implementation InstagramCell
 
 - (void)awakeFromNib {
-    self.comment.scrollEnabled = NO;
+    //self.comment.scrollEnabled = NO;
     // Initialization code
 }
 

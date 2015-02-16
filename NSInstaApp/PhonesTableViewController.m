@@ -40,7 +40,7 @@ static NSString* customCell = @"InstagramCell";
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 243.0f;
+    return 310.0f;
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
@@ -55,7 +55,7 @@ static NSString* customCell = @"InstagramCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     InstagramCell* cell = (InstagramCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     InstaPost *post = self.dataInst[indexPath.row];
-    [cell.photo sd_setImageWithURL:[NSURL URLWithString:post.thumbnail]];
+    [cell.photo sd_setImageWithURL:[NSURL URLWithString:post.thumbnail] placeholderImage:nil options:SDWebImageContinueInBackground];
     cell.comment.text = post.comment;
     cell.owner.text = post.owner;
     return cell;

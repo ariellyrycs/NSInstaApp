@@ -28,7 +28,7 @@ static NSString * instUrl = @"https://api.instagram.com/v1/tags/%@/media/recent?
     for (id post in instagramData[@"data"]) {
         InstaPost *nPost = [InstaPost new];
         nPost.owner = post[@"user"][@"full_name"];
-        nPost.thumbnail = post[@"images"][@"standard_resolution"][@"url"];
+        nPost.thumbnail = post[@"images"][@"low_resolution"][@"url"];
         if([NSNull null] != post[@"caption"]) {
             nPost.comment = post[@"caption"][@"text"];
         }

@@ -11,6 +11,8 @@
 #import "InstaDataModel.h"
 
 static NSString * instUrl = @"https://api.instagram.com/v1/tags/%@/media/recent?client_id=005c9a0586834b7bb7335f5955ab951a";
+static NSString *const kDataKey = @"data";
+
 @implementation InstaDataModel
 - (void)getInstaInfo:(NSString *)phoneType withSuccessBlock:(void(^)(id))success andFailureBlock:(void(^)(NSError *))failure
 {
@@ -24,14 +26,9 @@ static NSString * instUrl = @"https://api.instagram.com/v1/tags/%@/media/recent?
 }
 
 -(NSMutableArray *) formating:(id)instagramData {
-    NSMutableArray* tweets = [NSMutableArray new];
-    for (id post in instagramData[@"data"]) {
-        InstaPost *nPost = [InstaPost new];
-        nPost.owner = post[@"user"][@"full_name"];
-        nPost.thumbnail = post[@"images"][@"low_resolution"][@"url"];
-        if([NSNull null] != post[@"caption"]) {
-            nPost.comment = post[@"caption"][@"text"];
-        }
+    NSMutableArray* tweets = NSMutableArray.new;
+    for (id post in instagramData[kDataKey]) {
+        InstaPost *nPost = [InstaPost.alloc initWithInfo:post];
         [tweets addObject: nPost];
     }
     return tweets;

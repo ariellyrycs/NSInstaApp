@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1883F55F-2DB4-4C9C-8A4B-9516C5618D34</string>
+	<string>ED40D574-4070-4E82-AE99-EEFC80A809BC</string>
 	<key>IDESourceControlProjectName</key>
 	<string>NSInstaApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>github.com:ariellyrycs/NSInstaApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>NSInstaApp.xcworkspace</string>
+	<string>NSInstaApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EFEA8FF085F90C18CF0E8B6215C4334D1F2CABFC</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:ariellyrycs/NSInstaApp.git</string>

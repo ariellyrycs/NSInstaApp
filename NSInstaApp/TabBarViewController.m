@@ -7,7 +7,6 @@
 //
 
 #import "TabBarViewController.h"
-#import "InstaDataModel.h"
 
 @interface TabBarViewController ()
 

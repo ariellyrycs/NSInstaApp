@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E114E4E39CFF25DE44FEBA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3B5675550A7E0D681A5CFB /* libPods.a */; };
+		A631EAE81AF9862B008906C7 /* IAService.m in Sources */ = {isa = PBXBuildFile; fileRef = A631EAE71AF9862B008906C7 /* IAService.m */; };
+		A631EAEB1AF996D2008906C7 /* IAUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A631EAEA1AF996D2008906C7 /* IAUtility.m */; };
 		A63279531A8C0E8000A59DDF /* PhonesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63279521A8C0E8000A59DDF /* PhonesTableViewController.m */; };
 		A638E5091A8D73A900267C13 /* InstaPost.m in Sources */ = {isa = PBXBuildFile; fileRef = A638E5081A8D73A900267C13 /* InstaPost.m */; };
 		A64E78A21A897AAD00505AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E78A11A897AAD00505AF2 /* main.m */; };
@@ -17,7 +19,6 @@
 		A64E78B31A897AAD00505AF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64E78B11A897AAD00505AF2 /* LaunchScreen.xib */; };
 		A64E78BF1A897AAD00505AF2 /* NSInstaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E78BE1A897AAD00505AF2 /* NSInstaAppTests.m */; };
 		A6892B8B1A8993D800BA6784 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892B8A1A8993D800BA6784 /* TabBarViewController.m */; };
-		A6892BA31A8A6C4400BA6784 /* InstaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */; };
 		A6892BDA1A8AC98500BA6784 /* InstagramCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6892BD91A8AC98500BA6784 /* InstagramCell.xib */; };
 		A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,10 @@
 		6797B7D1469B1D72FF7583F9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8D3B5675550A7E0D681A5CFB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		925A8365F1F22107227026B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A631EAE61AF9862B008906C7 /* IAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAService.h; sourceTree = "<group>"; };
+		A631EAE71AF9862B008906C7 /* IAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAService.m; sourceTree = "<group>"; };
+		A631EAE91AF996D2008906C7 /* IAUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAUtility.h; sourceTree = "<group>"; };
+		A631EAEA1AF996D2008906C7 /* IAUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAUtility.m; sourceTree = "<group>"; };
 		A63279511A8C0E8000A59DDF /* PhonesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonesTableViewController.h; sourceTree = "<group>"; };
 		A63279521A8C0E8000A59DDF /* PhonesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhonesTableViewController.m; sourceTree = "<group>"; };
 		A638E5071A8D73A900267C13 /* InstaPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaPost.h; sourceTree = "<group>"; };
@@ -53,8 +58,6 @@
 		A64E78BE1A897AAD00505AF2 /* NSInstaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSInstaAppTests.m; sourceTree = "<group>"; };
 		A6892B891A8993D800BA6784 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		A6892B8A1A8993D800BA6784 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
-		A6892BA11A8A6C4400BA6784 /* InstaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaDataModel.h; sourceTree = "<group>"; };
-		A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaDataModel.m; sourceTree = "<group>"; };
 		A6892BD91A8AC98500BA6784 /* InstagramCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCell.xib; sourceTree = "<group>"; };
 		A6892BDE1A8BB64F00BA6784 /* InstagramCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramCell.h; sourceTree = "<group>"; };
 		A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramCell.m; sourceTree = "<group>"; };
@@ -113,8 +116,6 @@
 				A6892BDE1A8BB64F00BA6784 /* InstagramCell.h */,
 				A6892BDF1A8BB64F00BA6784 /* InstagramCell.m */,
 				A6892BD91A8AC98500BA6784 /* InstagramCell.xib */,
-				A6892BA11A8A6C4400BA6784 /* InstaDataModel.h */,
-				A6892BA21A8A6C4400BA6784 /* InstaDataModel.m */,
 				A6892B891A8993D800BA6784 /* TabBarViewController.h */,
 				A6892B8A1A8993D800BA6784 /* TabBarViewController.m */,
 				A64E78A31A897AAD00505AF2 /* AppDelegate.h */,
@@ -127,6 +128,10 @@
 				A63279521A8C0E8000A59DDF /* PhonesTableViewController.m */,
 				A638E5071A8D73A900267C13 /* InstaPost.h */,
 				A638E5081A8D73A900267C13 /* InstaPost.m */,
+				A631EAE61AF9862B008906C7 /* IAService.h */,
+				A631EAE71AF9862B008906C7 /* IAService.m */,
+				A631EAE91AF996D2008906C7 /* IAUtility.h */,
+				A631EAEA1AF996D2008906C7 /* IAUtility.m */,
 			);
 			path = NSInstaApp;
 			sourceTree = "<group>";
@@ -302,10 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A631EAEB1AF996D2008906C7 /* IAUtility.m in Sources */,
 				A6892BE01A8BB64F00BA6784 /* InstagramCell.m in Sources */,
+				A631EAE81AF9862B008906C7 /* IAService.m in Sources */,
 				A638E5091A8D73A900267C13 /* InstaPost.m in Sources */,
 				A6892B8B1A8993D800BA6784 /* TabBarViewController.m in Sources */,
-				A6892BA31A8A6C4400BA6784 /* InstaDataModel.m in Sources */,
 				A63279531A8C0E8000A59DDF /* PhonesTableViewController.m in Sources */,
 				A64E78A51A897AAD00505AF2 /* AppDelegate.m in Sources */,
 				A64E78A21A897AAD00505AF2 /* main.m in Sources */,

@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PhonesTableViewController : UITableViewController
-@property NSMutableArray* dataInst;
 - (void)getInfo;
 @end

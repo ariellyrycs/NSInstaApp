@@ -13,4 +13,9 @@
 @property(nonatomic, strong) NSString *owner;
 @property(nonatomic, strong) NSString *thumbnail;
 @property(nonatomic, strong) NSString *comment;
+
+
+
+- (instancetype) initWithInfo:(NSDictionary *) post;
+
 @end

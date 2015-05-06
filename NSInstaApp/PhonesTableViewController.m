@@ -8,30 +8,39 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "PhonesTableViewController.h"
 #import "InstagramCell.h"
-#import "InstaDataModel.h"
 #import "InstaPost.h"
+#import "IAService.h"
 
 
 static NSString* cellIdentifier = @"Cell";
 static NSString* customCell = @"InstagramCell";
 
+@interface PhonesTableViewController()
+@property NSArray * posts;
+@end
+
+
 @implementation PhonesTableViewController
 
 - (void)getInfo {
-    InstaDataModel * instaData = [[InstaDataModel alloc] init];
-    [instaData getInstaInfo:self.title  withSuccessBlock:^(NSMutableArray* responseObject){
-        self.dataInst = responseObject;
-        [self.tableView reloadData];
-    } andFailureBlock:^(NSError * error){
-        NSLog(@"It couldn't connect with instagram, please check your connection");
-    }];
+    PostsHandler postHandler = ^(NSArray *post, NSError *error) {
+        if(error) {
+            NSLog(@"It couldn't retrive information %@ %@", error, error.localizedDescription);
+        } else {
+            NSLog(@"Post Retrived successfully");
+            self.posts = post;
+            [self.tableView reloadData];
+        }
+        
+    };
+    [IAService.defaultProvider getPostService:postHandler title:self.title];
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerNib:[UINib nibWithNibName:customCell bundle:[NSBundle mainBundle]] forCellReuseIdentifier:cellIdentifier];
     [self getInfo];
-   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,12 +58,12 @@ static NSString* customCell = @"InstagramCell";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return self.dataInst.count;
+    return self.posts.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     InstagramCell* cell = (InstagramCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    InstaPost *post = self.dataInst[indexPath.row];
+    InstaPost *post = self.posts[indexPath.row];
     [cell.photo sd_setImageWithURL:[NSURL URLWithString:post.thumbnail] placeholderImage:nil options:SDWebImageContinueInBackground];
     cell.comment.text = post.comment;
     cell.owner.text = post.owner;
